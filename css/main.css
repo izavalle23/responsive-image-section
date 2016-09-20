@@ -22,8 +22,12 @@ html{
 body{
 	margin: 0;
 }
-header{
-	text-align: center;
+h1{
+  color: #000000;
+   font-family: sans-serif;
+   font-weight: bold;
+   font-size: 1.3rem;
+   text-align: left;
 	padding-top: 1em;
 }
 
@@ -32,15 +36,23 @@ header{
   border-radius: 4px;
 	padding: 0.5em 0.75em;
 	color: white;
-	position: relative;
-	width: 30%;
+	width: 25%;
 	text-align: center;
-	left: 33%;
 }
 
 .img-flex{
-  width:50%;
+  width:100%;
   display:block;
+  padding-top: 1em;
+}
+
+p {
+  font-style: normal;
+  text-align: left;
+  font-family:sans-serif;
+  margin: 0 0 1.3rem;
+  line-height: 100%;
+
 }
 @media only screen and (min-width: 38em){
 
@@ -60,7 +72,9 @@ html{
 	left: auto;
 }
 
-
+strong {
+  font-family: sans-serif;
+}
 
 @media only screen and (min-width: 60em){
 
@@ -102,13 +116,13 @@ main{
 @media only screen and (min-width: 60em){
 html{
 	font-size: 120%;
-	line-height: 1.3;
+	line-height: 1.5;
 }
 
 @media only screen and (min-width: 90em){
 	html{
 		font-size: 150%;
-		line-height: 1.3;
+		line-height: 1.5;
 	}
 
 	main{
